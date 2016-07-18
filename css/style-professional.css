@@ -1,0 +1,25 @@
+
+body {
+    /*background: #cccccc;*/
+    background: radial-gradient(#ffffff, #666666);
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+#slide1 .content {
+    margin: 140px 30px auto 30px;
+}
+
+#slide2 .content {
+    text-align: center;
+}
+
+
+#slide3 .content {
+    margin: 20px auto;
+    width: 700px;
+}

@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(#ec971f,#874b01);
+}
+
+.content {
+    padding: 10px 10px 30px 10px;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+.content img {
+    width: 600px;
+}
+
+.caption {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-top: 10px;
+}

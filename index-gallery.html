@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foto gallery con impress.js</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-default.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style-gallery.css">
+</head>
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Il tuo Browser <b>non supporta impress.js</b></p>
+</div>
+
+<div id="impress">
+
+    <div id="slide1" class="step slide"
+         data-x="0" data-y="0"
+         data-rotate-x="0" data-rotate-z="0">
+        <div class="content">
+            <img src="resources/pic1.jpg" alt="una foto...">
+            <p class="caption">foto 1...</p>
+        </div>
+    </div>
+
+    <div id="slide2" class="step slide"
+         data-x="600" data-y="150" data-rotate-z="30">
+        <div class="content">
+            <img src="resources/pic2.jpg" alt="una foto...">
+            <p class="caption">foto 2...</p>
+        </div>
+    </div>
+
+    <div id="slide3" class="step slide"
+         data-x="-500" data-y="-500" data-rotate-z="-10">
+        <div class="content">
+            <img src="resources/pic3.jpg" alt="una foto...">
+            <p class="caption">foto 3...</p>
+        </div>
+    </div>
+
+    <div id="slide4" class="step slide"
+         data-x="-600" data-y="300" data-rotate-z="-20">
+        <div class="content">
+            <img src="resources/pic4.jpg" alt="una foto...">
+            <p class="caption">foto 4...</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Usa lo spazio o i tasti freccia per navigare</p>
+</div>
+
+<script src="bower_components/impress.js/js/impress.js"></script>
+<script type="text/javascript">impress().init();</script>
+</body>
+
+</html>

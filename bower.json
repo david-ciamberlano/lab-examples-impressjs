@@ -1,0 +1,21 @@
+{
+  "name": "articolo-impressjs",
+  "authors": [
+    "David"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "^0.5.3",
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}

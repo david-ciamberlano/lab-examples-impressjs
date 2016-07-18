@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentazione professionale con impressjs</title>
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/style-default.css">
+    <link rel="stylesheet" href="css/style-slide.css">
+    <link rel="stylesheet" href="css/style-professional.css">
+</head>
+<body class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Il tuo Browser <b>non supporta impress.js</b></p>
+    </div>
+
+    <div id="impress">
+        <div id="slide1" class="step slide" data-x="0" data-y="0">
+            <h2>impress.js</h2>
+            <div class="content">
+                <p><b><em>impress.js</em></b> &egrave; un presentation framework basato sulle tecnologie
+                    <b><em>CSS3 transforms</em></b> e <b><em>transitions</em></b>.</p>
+                <p>&Egrave; supportato da tutti i moderni browser e può gestire <b>testi</b>...</p>
+
+            </div>
+        </div>
+
+        <div id="slide2" class="step slide" data-x="1000" data-y="0">
+            <h2>...foto...</h2>
+            <div class="content">
+                <img src="resources/pic3.jpg" alt="Una foto" width="640" height="480" >
+            </div>
+        </div>
+
+        <div id="slide3" class="step slide" data-x="500" data-y="800">
+            <h2>...elementi multimediali.</h2>
+            <div class="content">
+                <iframe width="700" height="395" src="https://www.youtube.com/embed/JU2f_jkPRq4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hint">
+        <p>Usa lo spazio o i tasti freccia per navigare</p>
+    </div>
+    <script src="bower_components/impress.js/js/impress.js"></script>
+    <script type="text/javascript">impress().init();</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+body {
+    background: radial-gradient(lightblue,cornflowerblue);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #8c8c8c;
+}
+
