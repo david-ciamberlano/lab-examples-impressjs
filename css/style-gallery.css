@@ -6,6 +6,7 @@ body {
     padding: 10px 10px 30px 10px;
     background-color: white;
     border: 1px solid #dddddd;
+    text-align: center;
 }
 
 .content img {

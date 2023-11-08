@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/style-default.css">
     <link rel="stylesheet" href="css/style-slide.css">
     <link rel="stylesheet" href="css/style-creative.css">
+    <link rel="stylesheet" href="css/progress-bar.css">
+    <style>
+        .substep { opacity: 0; }
+        .substep.substep-visible { opacity: 1; transition: opacity 1s; }
+    </style>
 </head>
 <body class="impress-not-supported">
 
@@ -31,8 +36,8 @@
     <div id="slide3" class="step slide"
          data-x="-500" data-y="0" data-z="-866"
          data-rotate-x="0" data-rotate-y="210" data-rotate-z="0">
-        <h2>Foto 3...</h2>
-        <img src="resources/pic3.jpg" width="780" height="480" alt="una foto...">
+        <h2 class="substep">Foto 3...</h2>
+        <img class="substep" src="resources/pic3.jpg" width="780" height="480" alt="una foto...">
     </div>
 
     <div id="slide4" class="step slide"
@@ -49,7 +54,7 @@
         <img src="resources/pic4.jpg" width="780" height="475" alt="una foto...">
     </div>
 
-    <div id="slide6" class="step slide"
+    <div id="slide6" class="step slide stop"
          data-x="500" data-y="0" data-z="866"
          data-rotate-x="0" data-rotate-y="390" data-rotate-z="0">
         <h2>Un video da YouTube...</h2>
@@ -61,7 +66,11 @@
     <p>Usa lo spazio o i tasti freccia per navigare</p>
 </div>
 
-<script src="bower_components/impress.js/js/impress.js"></script>
+<div class="impress-progressbar"><div></div></div>
+<div class="impress-progress"></div>
+
+<!--<script src="bower_components/impress.js/js/impress.js"></script>-->
+<script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js"></script>
 <script type="text/javascript">impress().init();</script>
 </body>
 

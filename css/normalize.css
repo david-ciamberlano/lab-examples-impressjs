@@ -1,0 +1,36 @@
+/* Normalize.css */
+
+/* Impostare i margini e i padding su zero per tutti gli elementi */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Impostare il box-sizing su border-box per tutti gli elementi */
+* {
+    box-sizing: border-box;
+}
+
+/* Migliorare la leggibilità del testo */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Rimuovere lo stile del cursore sui collegamenti ipertestuali, ma mantieni la sottolineatura */
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Rimuovere la sottolineatura dai collegamenti ipertestuali in hover e focus */
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* Mantenere uno stile di elenchi coerente */
+ul {
+    list-style: none;
+}
